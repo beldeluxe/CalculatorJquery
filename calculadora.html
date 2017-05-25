@@ -1,0 +1,100 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculadora.css">
+     <script type="text/javascript" src="jquery-3.1.1.js"></script>
+     <script type="text/javascript" src="calculadora.js"></script>
+     <script type="text/javascript" src="jquery-ui.js"></script>
+     
+<!--     
+      
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
+        
+
+</head>
+<body>
+  <aside id="temas">
+  	<div id="standar" onclick="tema()" class="botont">
+  		<p>standar</p>
+  	</div>
+  	<div id="kitty" class="botont">
+  		<p>kitty</p>
+  	</div>
+  	<div id="jungle" class="botont">
+  		<p>jungle</p>
+  	</div>
+  	
+  </aside>
+  <div id="contenedor">
+    <div id="arriba">
+
+    <ul id="cabecera">
+        <li id="on" class="listab" id="on"><b>ON</b></li>
+        <!-- <li class="no">&nbsp</li> -->
+        <li id="off" class="listab" id="off"><b>OFF</b></li>
+      
+    </ul>
+      <div id="opcion2">Científica</div>
+<!--     <div id="solar">
+        <div class="mini"></div>
+        <div class="mini"></div>
+        <div class="mini"></div>
+        <div class="mini"></div>
+    </div> -->
+    </div>
+    <input type="text" id="pantalla" class="pantalla" readonly>
+        <div id="cientifica">
+           <div class="fila">
+            <div class="numeroc" >&#945;</div>
+            <div class="numeroc" >&sum;</div>
+            <div class="numeroc" >(-)</div>
+            <div class="numeroc" >tan</div>
+            <div class="numeroc" >	&lt;</div>
+            <div class="numeroc" >ans</div>
+           </div> 
+           <div class="fila">
+            <div class="numeroc" >&#8730;</div>
+            <div class="numeroc" >%</div>
+            <div class="numeroc" ><i>x</i></div>
+            <div class="numeroc" >sen</div>
+            <div class="numeroc" >cos</div>
+            <div class="numeroc" >tan</div>
+           </div> 
+            <div class="fila">
+            <div class="numeroc" ><i>log</i></div>
+            <div class="numeroc" >&fnof;</div>
+            <div class="numeroc" >(</div>
+            <div class="numeroc" >)</div>
+            <div class="numeroc" >M</div>
+            <div class="numeroc" >M+</div>
+           </div>    
+
+        </div>
+        <div id="calcu">
+            <div class="numero" id="numero">1</div>
+            <div class="numero" id="numero">2</div>
+            <div class="numero" id="numero">3</div>
+            <div id="suma" class="numero">+</div>
+           
+       
+            <div class="numero" id="numero">4</div>
+            <div class="numero" id="numero">5</div>
+            <div class="numero" id="numero">6</div>
+            <div id="resta" class="numero">-</div>
+       
+            <div class="numero" id="numero">7</div>
+            <div class="numero" id="numero">8</div>
+            <div class="numero" id="numero">9</div>
+            <div id="multiplica" class="numero">*</div>
+      
+            <div class="numero">0</div>
+            <div class="numero">.</div>
+            <div id="igual" class="igual">=</div>
+            <div id="divide" class="numero">/</div>
+      
+        <div id="borrar" class="borrar">CE</div>
+        </div>
+</body>
+</html>
